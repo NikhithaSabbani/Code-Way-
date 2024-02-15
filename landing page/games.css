@@ -1,0 +1,72 @@
+section
+{
+	color: white;
+	font-size: 35px;
+	margin-left: 40px;
+	text-shadow: -2px -2px 2px #F63DF9;
+}
+.gallery
+{
+	display: flex;
+	width: 30%;
+	height: 300px;
+	gap: 2px;
+	background-color: black;
+
+
+}
+
+.gallery > img
+{
+	width: 15%;
+	height: 300px;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	border: 2px solid black;
+	border-radius: 5px;
+	transition: all ease 0.5;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.gallery > img:hover
+{
+	width: 100%;
+	scale: 1.1;
+}
+.we
+{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+	margin-top: 100px;
+
+
+}
+a
+{
+	position: relative;
+	text-decoration: none;
+	background-color: transparent;
+	left: 400px;
+	margin-left: 20px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover
+{
+	transition: 1s;
+	border-radius: 10px;
+	box-shadow: -5px -5px 5px #F63DF9, 5px 5px 5px #F63DF9;
+	overflow: hidden;
+	border: 2px solid black ;
+	border-width: 2px;
+	background-color: black;
+}
+.main-container{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}

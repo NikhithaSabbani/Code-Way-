@@ -1,0 +1,185 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.main-container
+{
+ background-image: url("D:\\snikhi\\pexels-photo-3165335.jpeg");
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 650px;
+}
+section
+{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px #F63DF9;
+}
+a 
+{
+	position: relative;
+	text-decoration: none;
+	background-color: transparent;
+	left: 820px;
+	margin-left: 20px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+main 
+{
+   font-size: 50px;
+   color: white; 
+   margin: 50px;
+   padding: 80px;
+   text-shadow: -2px -2px 2px #F63DF9;
+
+}
+.head2
+{
+	font-size: 50px;
+	color: #F63DF9;
+	text-align: center;
+	height:30px;
+	width:100%;
+	background-color: black;
+    padding: 30px;
+/*	background-image: url("D:\\snikhi\\pexels-photo-2708981.webp");*/
+}
+.boxes                
+{
+	height:450px;
+	width: 100%;
+/*	background-color: red;*/
+	background-image: url("D:\\snikhi\\pexels-photo-2708981.webp");
+}
+.box1
+{
+	float: left;
+	height: 350px;
+	width: 350px;
+/*	background-color: black;*/
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 20px;
+	box-shadow: -5px -5px 5px #F63DF9, 5px 5px 5px #F63DF9;
+	font-size: 50px;
+/*    color: whitesmoke;*/
+    margin-left: 50px;
+    margin-top: 60px;
+    background-image: url("D:\\snikhi\\pc2.jpg");
+
+}
+.box2
+{
+	float: left;
+	height: 350px;
+	width: 350px;
+/*	background-color: black;*/
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 20px;
+	box-shadow: -5px -5px 5px #F63DF9, 5px 5px 5px #F63DF9;
+/*	font-size: 50px;*/
+    color: white;
+    margin-left:50px;
+    margin-top: 60px;
+    
+    background-image: url("D:\\snikhi\\pc5.jpg");
+
+}
+.box3
+{
+	float: right;
+	height: 350px;
+	width: 350px;
+/*	background-color: black;*/
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 20px;
+	font-size: 50px;
+	box-shadow: -5px -5px 5px #F63DF9, 5px 5px 5px #F63DF9;
+/*    color: ghostwhite;*/
+    margin-right: 50px;
+    margin-top: 60px;
+    background-image: url("D:\\snikhi\\pc4.jpg");
+
+}
+.last
+{
+	font-size: 35px;
+	color: #F63DF9;
+	height: 120px;
+	background-color: black;
+	text-align: center;
+}
+.fa-youtube
+{
+	font-size: 50px;
+	color: red;
+	padding: 10px;
+
+}
+.fa-instagram
+{
+	font-size: 50px;
+	color: red;
+}
+.fa-google-play
+{
+	font-size: 50px;
+	color: royalblue;
+}
+.box1:hover
+{
+	transition: 0.6;
+	transform: scale( 1.1);
+	overflow: hidden;
+
+}
+.box2:hover
+{
+	transition: 0.6;
+	transform: scale( 1.1);
+	overflow: hidden;
+
+}
+.box3:hover
+{
+	transition: 0.6;
+	transform: scale( 1.1);
+	overflow: hidden;
+
+}
+a:hover
+{
+	transition: 1s;
+	border-radius: 10px;
+	box-shadow: -5px -5px 5px #F63DF9, 5px 5px 5px #F63DF9;
+	overflow: hidden;
+	border: 2px solid black ;
+	border-width: 2px;
+	background-color: black;
+}
+.button
+{
+	height: 75px;
+	width: 100%;
+	background-color: black;
+	
+}
+	
+
+
+
+
+
+

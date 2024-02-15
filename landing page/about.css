@@ -1,0 +1,85 @@
+*
+{
+	height:100%;
+	width: 100%;
+	background-color:black;
+
+}
+.main-container{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+section
+{
+	font-size: 40px;
+	text-shadow: 2px 2px 2px  #F63DF9;
+	height: 75px;
+	width: 100%;
+	color: white;
+}
+.box1
+{
+	margin-left: 5px;
+	width: 400px;
+	height: 500px;
+	background-color: red;
+	background-image: url("D:\\snikhi\\we.jpg");
+
+
+}
+.box2
+{
+	width: 800px;
+	height: 500px;
+	background-color: black;
+	margin-left: 400px;
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+
+}
+.box3
+{
+	margin-left: 5px;
+	width: 400px;
+	height: 500px;
+	background-color: red;
+	background-image: url("D:\\snikhi\\v2.jpg");
+
+
+}
+.box4
+{
+	width: 800px;
+	height: 500px;
+	background-color: black;
+	margin-left: 400px;
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	margin-top: 20px;
+
+}
+
+a
+{
+	position: relative;
+	text-decoration: none;
+	background-color: transparent;
+	left: 400px;
+	margin-left: 20px;
+    padding: 5px;
+    font-size: 23px;
+    color: white;
+}
+a:hover
+{
+	transition: 1s;
+	border-radius: 10px;
+	box-shadow: -5px -5px 5px #F63DF9, 5px 5px 5px #F63DF9;
+	overflow: hidden;
+	border: 2px solid black ;
+	border-width: 2px;
+	background-color: black;
+}
