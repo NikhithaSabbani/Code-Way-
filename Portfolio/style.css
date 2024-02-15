@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@1,8..60,300&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.sidebar{
+	background-color:#c5e8e8;
+/*	width: 200px;*/
+	height: 100vh;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+	padding: 25px;
+}
+.sidebar nav li{
+	padding: 25px;
+	list-style: none;
+	font-size: 25px;
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+.main{
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+}
+.container{
+	display: flex;
+}
+.infocontainer{
+/*	background-color: yellow;*/
+	height: 80vh;
+	width: 80vw;
+	margin: 100px auto;
+	display: flex;
+	justify-content: space-around;
+}
+.devinfo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: font-family: 'Source Serif 4', serif;
+	color: #38dcf2;
+
+}
+.hello{
+	font-size: 60px;
+}
+.name{
+	font-size: 50px;
+	font-weight: bold; 
+	margin-top: 15px;
+}
+.about{
+	font-size: 40px;
+	margin-top: 25px;
+}
+.buttons{
+	margin-top: 60px;
+
+}
+.buttons button{
+	padding: 10px 14px;
+	border-radius: 25px;
+	color: ghostwhite;
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0 20 px;
+	cursor: pointer;
+	box-shadow: -2px -2px 2px #5aeded, 2px 2px 2px #5aeded;
+
+
+}
+.buttons button:hover{
+	color: #033838;
+	background-color: #38dcf2;
+	transition: 0.6;
+	transform: scale(1.1);
+
+}
+
+.devpic img {
+	width: auto;
+	height: 467px;
+	overflow: hidden;
+	
+}
+.devpic img:hover{
+	transform: scale( 1.1);
+	
+}
+a:hover{
+	color: #0b2e2e;
+	background-color: #38dcf2;
+	transition: 0.6;
+	transform: scale(1.1);
+	border-radius: 5px;
+}
+.mybio{
+	margin-top: 0px;
+	font-size: 30px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+
+}
+p
+{
+	margin-top: 25px;
+}
+html {
+  margin: 40px auto;
+  text-align: center;
+}
+	.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	  padding: 10px;
+	  border-radius: 30px;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+	}
+	.click{
+		margin-top: 35px;
+	}
+.content{
+	font-size: 45px;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+section{
+	font-size: 40px;
+	text-shadow: -2px -2px 2px gray ;
+	color: #38dcf2;
+}
+.skillcontainer{
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	font-size: 20px;
+	width: 1100px;
+	height: 600px;
+	background-color: black;
+	color: ghostwhite;
+	padding: 15px;
+
+
+
+}
+.skillitem{
+	display: flex;
+	height: 7px;
+	width: 265px;
+/*	background-color: yellow;*/
+	margin-top: 40px;
+	font-size: 20px;
+
+}
+.skill{
+	width: 265px;
+	height:7px ;
+	background-color: red;
+	border: 2px solid black;
+}
+.hundred{
+	width: 265px;
+	background-color: green;
+	padding: 3px;
+
+}
+.seventyfive{
+	width: 125px;
+	background-color: orange;
+	padding: 3px;
+
+}
+.t5{
+	width: 75px;
+	background-color: red;
+	padding: 3px;
+}
+.email{
+	font-size: 30px;
+	color: white;
+	margin-top: 35px;
+
+
+}
+.number{
+	font-size: 30px;
+	color: white;
+	margin-top: 35px;
+}
+.mainee{
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+	color: #38dcf2;
+	font-size: 25px;
+}
+.contactform{
+	background-color: black;
+	width: 150vh;
+	height: 100vh;
+	margin-top: 20px;
+}
+.hamburger{
+	position: absolute;
+	cursor: pointer;
+	top: 39px;
+	left: 10px;
+}
+.cross{
+	margin-left: 150px;
+	margin-top:10px ;
+}
+.sidebarGo{
+	transform: translate(-443px, 0px);
+	position: absolute;
+}
+.main1{
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+	color: white;
+}
+.p1
+{
+	height: 200px;
+	width: 1000px;
+	background-color: #a1e3e3;
+	margin-top: 35px;
+	margin-left: 20px;
+	font-size: 20px;
+	color: black;
+}
+.p2
+{
+	height: 200px;
+	width: 1000px;
+	background-color: #a1e3e3;
+	margin-top: 35px;
+	margin-left: 20px;
+	font-size: 20px;
+	color: black;
+}
